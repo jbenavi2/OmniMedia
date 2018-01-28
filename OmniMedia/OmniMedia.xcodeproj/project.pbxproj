@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA6388C2201D93F10021FD5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6388C1201D93F10021FD5C /* AppDelegate.swift */; };
+		BA6388C4201D93F10021FD5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6388C3201D93F10021FD5C /* ViewController.swift */; };
+		BA6388C7201D93F10021FD5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6388C5201D93F10021FD5C /* Main.storyboard */; };
+		BA6388C9201D93F10021FD5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6388C8201D93F10021FD5C /* Assets.xcassets */; };
+		BA6388CC201D93F10021FD5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6388CA201D93F10021FD5C /* LaunchScreen.storyboard */; };
+		BA6388D7201D93F10021FD5C /* OmniMediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6388D6201D93F10021FD5C /* OmniMediaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA6388D3201D93F10021FD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6388B6201D93F10021FD5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6388BD201D93F10021FD5C;
+			remoteInfo = OmniMedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA6388BE201D93F10021FD5C /* OmniMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmniMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6388C1201D93F10021FD5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA6388C3201D93F10021FD5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA6388C6201D93F10021FD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA6388C8201D93F10021FD5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA6388CB201D93F10021FD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA6388CD201D93F10021FD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6388D2201D93F10021FD5C /* OmniMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmniMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6388D6201D93F10021FD5C /* OmniMediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmniMediaTests.swift; sourceTree = "<group>"; };
+		BA6388D8201D93F10021FD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA6388BB201D93F10021FD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6388CF201D93F10021FD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA6388B5201D93F10021FD5C = {
+			isa = PBXGroup;
+			children = (
+				BA6388C0201D93F10021FD5C /* OmniMedia */,
+				BA6388D5201D93F10021FD5C /* OmniMediaTests */,
+				BA6388BF201D93F10021FD5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA6388BF201D93F10021FD5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA6388BE201D93F10021FD5C /* OmniMedia.app */,
+				BA6388D2201D93F10021FD5C /* OmniMediaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA6388C0201D93F10021FD5C /* OmniMedia */ = {
+			isa = PBXGroup;
+			children = (
+				BA6388C1201D93F10021FD5C /* AppDelegate.swift */,
+				BA6388C3201D93F10021FD5C /* ViewController.swift */,
+				BA6388C5201D93F10021FD5C /* Main.storyboard */,
+				BA6388C8201D93F10021FD5C /* Assets.xcassets */,
+				BA6388CA201D93F10021FD5C /* LaunchScreen.storyboard */,
+				BA6388CD201D93F10021FD5C /* Info.plist */,
+			);
+			path = OmniMedia;
+			sourceTree = "<group>";
+		};
+		BA6388D5201D93F10021FD5C /* OmniMediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6388D6201D93F10021FD5C /* OmniMediaTests.swift */,
+				BA6388D8201D93F10021FD5C /* Info.plist */,
+			);
+			path = OmniMediaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA6388BD201D93F10021FD5C /* OmniMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6388DB201D93F10021FD5C /* Build configuration list for PBXNativeTarget "OmniMedia" */;
+			buildPhases = (
+				BA6388BA201D93F10021FD5C /* Sources */,
+				BA6388BB201D93F10021FD5C /* Frameworks */,
+				BA6388BC201D93F10021FD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OmniMedia;
+			productName = OmniMedia;
+			productReference = BA6388BE201D93F10021FD5C /* OmniMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA6388D1201D93F10021FD5C /* OmniMediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6388DE201D93F10021FD5C /* Build configuration list for PBXNativeTarget "OmniMediaTests" */;
+			buildPhases = (
+				BA6388CE201D93F10021FD5C /* Sources */,
+				BA6388CF201D93F10021FD5C /* Frameworks */,
+				BA6388D0201D93F10021FD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6388D4201D93F10021FD5C /* PBXTargetDependency */,
+			);
+			name = OmniMediaTests;
+			productName = OmniMediaTests;
+			productReference = BA6388D2201D93F10021FD5C /* OmniMediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA6388B6201D93F10021FD5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Javier Benavides";
+				TargetAttributes = {
+					BA6388BD201D93F10021FD5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BA6388D1201D93F10021FD5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA6388BD201D93F10021FD5C;
+					};
+				};
+			};
+			buildConfigurationList = BA6388B9201D93F10021FD5C /* Build configuration list for PBXProject "OmniMedia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA6388B5201D93F10021FD5C;
+			productRefGroup = BA6388BF201D93F10021FD5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA6388BD201D93F10021FD5C /* OmniMedia */,
+				BA6388D1201D93F10021FD5C /* OmniMediaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA6388BC201D93F10021FD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6388CC201D93F10021FD5C /* LaunchScreen.storyboard in Resources */,
+				BA6388C9201D93F10021FD5C /* Assets.xcassets in Resources */,
+				BA6388C7201D93F10021FD5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6388D0201D93F10021FD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA6388BA201D93F10021FD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6388C4201D93F10021FD5C /* ViewController.swift in Sources */,
+				BA6388C2201D93F10021FD5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6388CE201D93F10021FD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6388D7201D93F10021FD5C /* OmniMediaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA6388D4201D93F10021FD5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6388BD201D93F10021FD5C /* OmniMedia */;
+			targetProxy = BA6388D3201D93F10021FD5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA6388C5201D93F10021FD5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA6388C6201D93F10021FD5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA6388CA201D93F10021FD5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA6388CB201D93F10021FD5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA6388D9201D93F10021FD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA6388DA201D93F10021FD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA6388DC201D93F10021FD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OmniMedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OmniMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA6388DD201D93F10021FD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OmniMedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OmniMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA6388DF201D93F10021FD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OmniMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OmniMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmniMedia.app/OmniMedia";
+			};
+			name = Debug;
+		};
+		BA6388E0201D93F10021FD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OmniMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OmniMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmniMedia.app/OmniMedia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA6388B9201D93F10021FD5C /* Build configuration list for PBXProject "OmniMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6388D9201D93F10021FD5C /* Debug */,
+				BA6388DA201D93F10021FD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6388DB201D93F10021FD5C /* Build configuration list for PBXNativeTarget "OmniMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6388DC201D93F10021FD5C /* Debug */,
+				BA6388DD201D93F10021FD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6388DE201D93F10021FD5C /* Build configuration list for PBXNativeTarget "OmniMediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6388DF201D93F10021FD5C /* Debug */,
+				BA6388E0201D93F10021FD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA6388B6201D93F10021FD5C /* Project object */;
+}
