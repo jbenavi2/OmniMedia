@@ -13,6 +13,7 @@
 		BA6388C9201D93F10021FD5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6388C8201D93F10021FD5C /* Assets.xcassets */; };
 		BA6388CC201D93F10021FD5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6388CA201D93F10021FD5C /* LaunchScreen.storyboard */; };
 		BA6388D7201D93F10021FD5C /* OmniMediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6388D6201D93F10021FD5C /* OmniMediaTests.swift */; };
+		BA6388E3201D96440021FD5C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6388E2201D96440021FD5C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BA6388D2201D93F10021FD5C /* OmniMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmniMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6388D6201D93F10021FD5C /* OmniMediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmniMediaTests.swift; sourceTree = "<group>"; };
 		BA6388D8201D93F10021FD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6388E2201D96440021FD5C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6388E3201D96440021FD5C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +65,7 @@
 				BA6388C0201D93F10021FD5C /* OmniMedia */,
 				BA6388D5201D93F10021FD5C /* OmniMediaTests */,
 				BA6388BF201D93F10021FD5C /* Products */,
+				BA6388E1201D96440021FD5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +98,14 @@
 				BA6388D8201D93F10021FD5C /* Info.plist */,
 			);
 			path = OmniMediaTests;
+			sourceTree = "<group>";
+		};
+		BA6388E1201D96440021FD5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA6388E2201D96440021FD5C /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
